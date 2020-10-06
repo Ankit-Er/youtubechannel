@@ -1,0 +1,12 @@
+#box{
+	width:400px;
+	padding:2%;
+	border-radius:10px;
+	text-align:center;
+	margin:10px auto;
+	background:#347c5e;
+}
+
+.mybtn{
+	width: 49%;
+}
