@@ -11,6 +11,7 @@ import com.progrank.model.UserLogin;
 @Controller
 public class LoginController {
 
+	
 	@RequestMapping("/")
 	public String login(@ModelAttribute("objUser") UserLogin user) {
 		return "login";
