@@ -10,5 +10,5 @@ public class HomeController {
 	public String sayHi() {
 		return "Hi Spring Security !!";
 	}
-	
+	 
 }
