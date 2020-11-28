@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	Hello CSRF !
+	<br>
+	<form action="/saveData" method="post">
+	
+		<input name="uname"/><br>
+		<input type="hidden" th:name="${_ankit.parameterName}"
+		th:value="${_ankit.token}"/>
+		<input type="submit" value="Save Record"/>
+		
+	</form>
+	
+</body>
+</html>
