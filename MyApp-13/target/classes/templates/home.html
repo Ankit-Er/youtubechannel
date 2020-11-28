@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.com">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script th:src="@{/jquery.min.js}"></script>
+
+<script>
+	function getData(){
+		$.post("http://localhost:8080/accessData",null, function(r){
+			alert(r)
+		})
+	}	
+</script>
+
+</head>
+<body>
+	<button onclick="getData()">MyApp Button</button>
+</body>
+</html>
