@@ -29,5 +29,4 @@ public class SpringSecurity15Application {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurity15Application.class, args);
 	}
-
 }
